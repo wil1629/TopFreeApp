@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Top Free Apps</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="drawer_open">+</string>
+    <string name="drawer_close">o</string>
+    <string name="orientation">portrait</string>
+</resources>

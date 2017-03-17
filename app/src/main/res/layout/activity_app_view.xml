@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="equipo.wiloapps.com.topfreeapps.AppView">
+    <ScrollView
+        android:id="@+id/svScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/gradiente_background_splash">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/base_card_app"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivImagenApp"
+                    android:padding="1dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/base_imagen"/>
+
+                    <TextView
+                        android:id="@+id/tvNameApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Name"
+                        android:textColor="#005e00"
+                        android:textSize="18sp"
+                        android:shadowColor="#aa000000"
+                        android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/tvCategoryApp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Category"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:shadowColor="#aa000000"
+                        android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+                        android:textStyle="bold|italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="Free"
+                        android:textColor="#ff8400"
+                        android:textSize="18sp"
+                        android:shadowColor="#aa000000"
+                        android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+                        android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#71000000"/>
+            <TextView
+                android:id="@+id/tvLinkDownload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="left"
+                android:text="Link Download: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Summary"
+                android:textAlignment="gravity"
+                android:textColor="#111"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tvCopyRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="CopyRights"
+                android:textColor="#f00"
+                android:textSize="18sp"
+                android:shadowColor="#aa000000"
+                android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_categories_apps"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Categories" />
+        <item
+            android:id="@+id/item_navigation_drawer_apps_free"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Apps" />
+        <item
+            android:id="@+id/item_navigation_drawer_about_app"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="About" />
+    </group>
+</menu>

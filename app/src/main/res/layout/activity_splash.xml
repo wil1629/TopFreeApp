@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="equipo.wiloapps.com.topfreeapps.Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradiente_background_splash">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOP FREE APPS"
+            android:id="@+id/textView"
+            android:textColor="#aa00000f"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+            android:textStyle="bold|italic">
+        </TextView>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flTapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/gradiente_background_splash">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iTUNES STORE"
+            android:textColor="#aa00000f"
+            android:id="@+id/textView1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:shadowColor="#ffffff"
+            android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+            android:textStyle="bold|italic">
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flBrillo"
+        android:layout_width="10dp"
+        android:layout_height="32dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/list_layers_r"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/sbSnackInicio"/>
+
+</FrameLayout>

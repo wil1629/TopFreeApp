@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente_background_splash"
+    tools:context="equipo.wiloapps.com.topfreeapps.About">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOP FREE APPS v1.0"
+        android:textColor="#c300000f"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+        android:textStyle="bold|italic">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="! Las mejores Apps de la iTunes Store ¡"
+        android:textColor="#b900000f"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:shadowColor="#ffffff"
+        android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1"
+        android:textStyle="bold|italic">
+    </TextView>
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Copyright WILSON JAVIER LAVAO OSORIO 2016"
+        android:textColor="#8effffff"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:textStyle="bold|italic">
+    </TextView>
+
+</FrameLayout>
